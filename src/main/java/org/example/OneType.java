@@ -9,10 +9,10 @@ public class OneType extends Type {
     @Override
     public void printResult() {
         double studyTime = getTime();
-        System.out.println("тип студента №" + getType()
-                + "\nталант студента = " + getTalent()
-                + "\nвремя на разбор " + studyTime / 3.0
-                + "\nвремя на практику " + studyTime / 3.0
-                + "\nвремя на нахождение в потоке " + studyTime / 3.0);
+        System.out.println("Type of student №" + getType()
+                + "\nTalent Student = " + getTalent()
+                + "\ntime on the analysis " + studyTime / 3.0
+                + "\nTime to practice " + studyTime / 3.0
+                + "\nTime to stay in the stream " + studyTime / 3.0);
     }
 }

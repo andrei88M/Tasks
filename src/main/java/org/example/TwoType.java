@@ -9,9 +9,9 @@ public class TwoType extends Type {
     @Override
     public void printResult() {
         double studyTime = getTime();
-        System.out.println("тип студента №" + getType()
-                + "\nталант студента = " + getTalent()
-                + "\nвремя на разбор " + studyTime / 2.0
-                + "\nвремя на практику " + studyTime / 2.0);
+        System.out.println("Type of student №" + getType()
+                + "\ntalent Student = " + getTalent()
+                + "\ntime on the analysis " + studyTime / 2.0
+                + "\nTime to practice " + studyTime / 2.0);
     }
 }

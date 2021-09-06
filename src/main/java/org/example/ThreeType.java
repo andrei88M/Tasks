@@ -9,8 +9,8 @@ public class ThreeType extends Type{
     @Override
     public void printResult() {
         double studyTime = getTime();
-        System.out.println("тип студента №" + getType()
-                + "\nталант студента = " + getTalent()
-                + "\nвремя на практику " + studyTime / 1.0);
+        System.out.println("Type of student №" + getType()
+                + "\ntalent Student = " + getTalent()
+                + "\nTime to practice " + studyTime / 1.0);
     }
 }
